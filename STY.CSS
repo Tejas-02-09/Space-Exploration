@@ -1,0 +1,116 @@
+body {
+    
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+.card {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1em;
+    width: 300px;
+    margin: 1em;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* ... (previous code) ... */
+
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+    justify-content: space-around;
+    padding: 2em;
+}
+
+.card {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1em;
+    width: 300px;
+    margin: 1em;
+    text-align: left;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* ... (remaining code) ... */
+/* ... (previous code) ... */
+
+.card {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1em;
+    width: 300px;
+    margin: 1em;
+    text-align: left;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.live-feed {
+    height: 200px; /* Set a fixed height for the live feed container */
+    background-color: #ddd; /* Add a background color for the live feed container */
+    border-radius: 8px;
+    overflow: hidden; /* Hide overflow to keep a clean appearance */
+}
+
+/* ... (remaining code) ... */
+/* ... (previous code) ... */
+
+.photo-gallery {
+    height: 200px; /* Set a fixed height for the photo gallery container */
+    background-color: #f5f5f5; /* Add a background color for the photo gallery container */
+    border-radius: 8px;
+    overflow: hidden; /* Hide overflow to keep a clean appearance */
+}
+
+.mission-status {
+    height: 100px; /* Set a fixed height for the mission status container */
+    background-color: #e0e0e0; /* Add a background color for the mission status container */
+    border-radius: 8px;
+    overflow: hidden; /* Hide overflow to keep a clean appearance */
+}
+
+/* ... (remaining code) ... */
+
